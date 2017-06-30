@@ -1,0 +1,5 @@
+[credential]
+	helper = wincred
+[user]
+	email = jbschillo@gmail.com
+	name = jbschillo
