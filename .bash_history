@@ -90,3 +90,28 @@ $
 
 clear
 git status
+git remote
+git init
+git remot
+git remote
+git fetch
+status
+git status
+git add .
+clear
+git init
+mkdir Broadway
+cd Broadway
+touch index.html
+mkdir Resources
+cd Resources
+mkdir css
+cd css
+touch style.css
+cd ..
+cd ..
+git commit -m "Adding file structure"
+git add /Broadway
+git init
+git add /Broadway
+cd Broadway
