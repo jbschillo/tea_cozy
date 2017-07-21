@@ -40,10 +40,54 @@ a {
 }
 
 nav {
+  text-align: right;
   margin-right: 20px;
 }
 
 nav span{
   display: inline-block;
   padding: 20px 10px;
+}
+
+/*TOP*/
+.top {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+}
+
+.banner {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+/*MIDDLE*/
+
+.tea-text {
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.square img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.square span {
+  display: block;
+  padding-top: 10px;
+  font-weight: bold;
+  text-align: center;
 }
