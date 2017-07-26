@@ -17,6 +17,10 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
   z-index: 1;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 1;
 }
 
 .logo {
@@ -50,11 +54,21 @@ nav span{
 }
 
 /*TOP*/
-.top {
-  display: flex;
+#mission {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-  width: 1200px;
   height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 62px;
+  margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    margin:auto;
 }
 
 .banner {
@@ -64,11 +78,14 @@ nav span{
 }
 
 /*MIDDLE*/
+.middle {
+
+}
 
 .tea-text {
     width: 1000px;
     margin: auto;
-    padding-top: 70px;
+    padding-top: 150px;
 }
 
 .blocks {
@@ -90,4 +107,73 @@ nav span{
   padding-top: 10px;
   font-weight: bold;
   text-align: center;
+}
+
+
+/*bottom*/
+.bottom {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  position: relative;
+  top: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: 1200px 700px;
+  background-repeat: no-repeat;
+}
+
+
+.bottom h2{
+  margin-top: 70px;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.locations {
+  display: flex;
+  align-items: center;
+}
+
+.places {
+  height: 250px;
+  width: 300px;
+  margin: 0 20px;
+  opacity: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+/* Footer Section */
+
+footer {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 200px;
+}
+
+footer h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+footer h5 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  text-align: left;
+  font-weight: bold;
+  position: relative;
+  top: 30px;
+  left: 20px;
 }
